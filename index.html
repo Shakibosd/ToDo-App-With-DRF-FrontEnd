@@ -19,20 +19,24 @@
 <body>
   <section>
     <div>
-      <h1 class="text-center pt-3">Welcome My ToDo App</h1>
+      <h1 class="text-center text-light pt-3">Welcome My ToDo App</h1>
     </div>
     <br>
     <!-- data create -->
-    <div class="text-center">
-      <input id="word-input" class="w-25" type="text" placeholder="Enter The MiningFull Word Name" required>
-      <br><br>
-      <input id="quantity-input" class="w-25" type="number" placeholder="Please Choose The Quantity" required>
-      <br><br>
-      <button id="add-button" class="w-25 btn btn-success" type="button">Add</button>
+    <div class="card w-50 mx-auto p-5 hovers bg-dark text-light" id="border">
+      <input id="word-input" class="w-75 container bg-light p-2" style="border-radius: 20px; border: none;" type="text"
+        placeholder="Enter The Meaningful Word Name" required>
+      <br>
+      <input id="quantity-input" class="w-75 container bg-light p-2" style="border-radius: 20px; border: none;"
+        type="number" placeholder="Please Choose The Quantity" required>
+      <br>
+      <button id="add-button" class="w-75 btn btn-light text-dark container" style="border-radius: 20px;" type="submit">
+        <b>Add</b>
+      </button>
     </div>
-    
-    <div id="data-container" class="mt-4"></div>
-    
+
+    <div id="data-container" class="mt-5"></div>
+
   </section>
   <!-- js linkup -->
   <script src="./js/app.js"></script>

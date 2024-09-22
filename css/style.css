@@ -1,0 +1,11 @@
+body {
+    background-color: black !important;
+}
+
+.hovers {
+    box-shadow: 4px 4px 8px gray;
+}
+
+#border {
+    border-radius: 20px;
+}
